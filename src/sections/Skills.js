@@ -1,15 +1,17 @@
-import React from 'react';
-import content from '../data/content.json';
+import React from "react";
+import content from "../data/content.json";
 
-const About = () => {
-    return (
-        <section className="p-4 bg-gray-100 rounded-lg shadow-lg">  
-            <h2 className="text-2xl font-bold mb-2">My Skills</h2>
-            <p> {content.skills}</p>
-         </section>
+const Skills = () => {
+  return (
+    <section>
+      <h2>My Skills</h2>
+      <ul>
+        {content.skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
+    </section>
+  );
+};
 
-    );
-};      
-
-export default About;
-
+export default Skills;
