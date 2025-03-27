@@ -1,0 +1,29 @@
+{
+    "about": "I'm a passionate web developer with a keen interest in creating dynamic and responsive web applications. I enjoy learning new technologies and improving my skills in both front-end development and backend development. In my free time, I like to explore open-source projects and contribute to the developer community.",
+    "skills": [
+        "JavaScript",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "Git",
+        "GitHub"
+    ],
+    "hobbies": [
+        "Reading books",
+        "Traveling",
+        "Cooking",
+        "Technology",
+        "Problme-solving"
+    ],
+    "academic": {
+        "degree": "Bachelor of Technology",
+        "major": "Computer Science and Engineering",
+        "university": "Indian Institute of Information Technology, Vadodara",
+        "year": 2022
+    }
+}
